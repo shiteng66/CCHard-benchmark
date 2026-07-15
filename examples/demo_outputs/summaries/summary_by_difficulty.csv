@@ -1,0 +1,3 @@
+model_label,difficulty,n,mean,std,median,ci95_low,ci95_high
+synthetic-demo,Expert-Hard,125,69.7584,5.110855,69.7,68.85498,70.63363
+synthetic-demo,Model-Hard,125,69.5448,4.419052,69.8,68.74365,70.2968

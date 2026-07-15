@@ -1,0 +1,25 @@
+{
+  "models": [
+    {
+      "label": "candidate-model",
+      "model": "replace-with-provider-model-id",
+      "base_url": "https://api.example.com/v1",
+      "api_key_env": "CCHARD_CANDIDATE_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "timeout_s": 120,
+      "max_retries": 3
+    }
+  ],
+  "judge": {
+    "label": "rubric-judge",
+    "model": "replace-with-judge-model-id",
+    "base_url": "https://api.example.com/v1",
+    "api_key_env": "CCHARD_JUDGE_API_KEY",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "timeout_s": 120,
+    "max_retries": 3
+  }
+}
+

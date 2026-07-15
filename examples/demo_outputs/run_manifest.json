@@ -1,0 +1,14 @@
+{
+  "package_version": "0.3.0",
+  "created_at": "2026-07-15T07:06:36.871519+00:00",
+  "mode": "demo",
+  "synthetic": true,
+  "item_count": 250,
+  "model_labels": [
+    "synthetic-demo"
+  ],
+  "prompt_version": "cchard-public-1",
+  "items_sha256": "c13f02787cd5ef054ece0afafe52ce6407b6c8f69331ad2dad7e29ed3f085631",
+  "configuration_sha256": "0c9b3cd6475063ee2c865c26bc8c695d1f082804203ee9de7d3f3dc15514fc94",
+  "python_version": "3.12.13"
+}

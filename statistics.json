@@ -1,0 +1,211 @@
+{
+  "count_scope_note": "The three top-level layers are distinct and must not be added together.",
+  "full_constructed_pool": {
+    "approximate_total_items": 130000,
+    "capability_dimensions": 4,
+    "subtasks": 12,
+    "clinical_specialties": 22
+  },
+  "evaluation_working_subset": {
+    "total_items": 24014,
+    "dimensions": {
+      "basic_knowledge": 5981,
+      "scenario_decision": 10189,
+      "evidence_reasoning": 2400,
+      "clinical_execution": 5444
+    },
+    "subtasks": {
+      "T01_textbook": 3517,
+      "T02_guideline": 1464,
+      "T03_terminology": 1000,
+      "T04_exam": 8800,
+      "T05_diagnosis": 800,
+      "T06_mdt": 589,
+      "T07_evidence": 800,
+      "T08_differential": 800,
+      "T09_cot": 800,
+      "T10_examination": 800,
+      "T11_medication": 3844,
+      "T12_treatment": 800
+    },
+    "difficulty": {
+      "Expert-Hard": 3361,
+      "Model-Hard": 5283,
+      "unmapped_or_unspecified": 15370
+    }
+  },
+  "public_release_sample": {
+    "total_items": 250,
+    "unique_case_scenarios": 50,
+    "dimensions": {
+      "clinical_execution": 100,
+      "evidence_reasoning": 100,
+      "scenario_decision": 50
+    },
+    "subtasks": {
+      "T05_diagnosis": 50,
+      "T07_evidence": 50,
+      "T08_differential": 50,
+      "T10_examination": 50,
+      "T12_treatment": 50
+    },
+    "specialties": {
+      "乳腺科": 20,
+      "产科": 20,
+      "儿科": 20,
+      "内分泌科": 15,
+      "口腔科": 10,
+      "呼吸内科": 15,
+      "外科": 10,
+      "妇科与生殖医学科": 10,
+      "心血管内科": 10,
+      "急诊与重症医学科": 10,
+      "感染科": 10,
+      "泌尿外科": 10,
+      "消化内科": 10,
+      "皮肤科": 5,
+      "眼科": 10,
+      "神经内科": 10,
+      "耳鼻咽喉科": 10,
+      "肾内科": 5,
+      "肿瘤科": 10,
+      "血液科": 10,
+      "风湿免疫科": 10,
+      "骨科": 10
+    },
+    "difficulty": {
+      "Expert-Hard": 125,
+      "Model-Hard": 125
+    },
+    "task_by_difficulty": {
+      "T05_diagnosis": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      },
+      "T07_evidence": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      },
+      "T08_differential": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      },
+      "T10_examination": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      },
+      "T12_treatment": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      }
+    },
+    "source_type": {
+      "team_authored": 250
+    },
+    "deid_applied": {
+      "true": 250,
+      "false": 0
+    }
+  },
+  "public_sample": {
+    "total": 250,
+    "unique_case_scenarios": 50,
+    "dimensions": {
+      "clinical_execution": 100,
+      "evidence_reasoning": 100,
+      "scenario_decision": 50
+    },
+    "subtasks": {
+      "T05_diagnosis": 50,
+      "T07_evidence": 50,
+      "T08_differential": 50,
+      "T10_examination": 50,
+      "T12_treatment": 50
+    },
+    "specialties": {
+      "乳腺科": 20,
+      "产科": 20,
+      "儿科": 20,
+      "内分泌科": 15,
+      "口腔科": 10,
+      "呼吸内科": 15,
+      "外科": 10,
+      "妇科与生殖医学科": 10,
+      "心血管内科": 10,
+      "急诊与重症医学科": 10,
+      "感染科": 10,
+      "泌尿外科": 10,
+      "消化内科": 10,
+      "皮肤科": 5,
+      "眼科": 10,
+      "神经内科": 10,
+      "耳鼻咽喉科": 10,
+      "肾内科": 5,
+      "肿瘤科": 10,
+      "血液科": 10,
+      "风湿免疫科": 10,
+      "骨科": 10
+    },
+    "difficulty": {
+      "Expert-Hard": 125,
+      "Model-Hard": 125
+    },
+    "task_by_difficulty": {
+      "T05_diagnosis": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      },
+      "T07_evidence": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      },
+      "T08_differential": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      },
+      "T10_examination": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      },
+      "T12_treatment": {
+        "Expert-Hard": 25,
+        "Model-Hard": 25
+      }
+    },
+    "source_type": {
+      "team_authored": 250
+    },
+    "deid_applied": {
+      "true": 250,
+      "false": 0
+    }
+  },
+  "release_screening": {
+    "candidate_scenarios_screened": 800,
+    "eligible_scenarios": 633,
+    "review_needed_scenarios": 167,
+    "review_reason_counts": {
+      "age_cannot_be_safely_banded": 24,
+      "demographics_incomplete": 1,
+      "direct_identifier_marker": 80,
+      "direct_name_marker": 1,
+      "gold_parse_error": 5,
+      "insufficient_safe_public_facts": 5,
+      "missing_specialty": 14,
+      "named_institution_marker": 4,
+      "precise_location_marker": 34
+    },
+    "selected_unique_scenarios": 50,
+    "public_task_items": 250,
+    "eligible_not_selected_scenarios": 583,
+    "excluded_task_categories": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T06",
+      "T09",
+      "T11"
+    ]
+  }
+}

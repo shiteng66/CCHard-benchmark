@@ -1,0 +1,4 @@
+model_label,dimension,n,mean,std,median,ci95_low,ci95_high
+synthetic-demo,clinical_execution,100,69.6945,4.641033,69.8,68.813,70.613012
+synthetic-demo,evidence_reasoning,100,70.0075,4.952529,70.325,69.029475,71.009563
+synthetic-demo,scenario_decision,50,68.854,4.646799,68.5,67.5918,70.14405

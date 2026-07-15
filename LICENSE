@@ -1,0 +1,12 @@
+CCHard Public Reproducibility Sample
+
+Copyright (c) 2026 CCHard Team
+
+The public dataset items and dataset documentation are licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). Original software under `src/` and `tests/` is separately licensed under the MIT License in `LICENSE_CODE`.
+
+License summary and legal code:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Attribution is required. Commercial use is not permitted without separate written permission from the rights holder. Third-party textbooks, clinical guidelines, terminology sources, professional examination questions and other excluded source materials are not part of this release and are not licensed by this notice.
+
+This dataset is provided for research and benchmark evaluation only. It is not a medical device and must not be used for clinical diagnosis, treatment, prescribing or patient care.

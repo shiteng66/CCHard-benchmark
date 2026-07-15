@@ -1,0 +1,2 @@
+model_label,n,mean,std,median,ci95_low,ci95_high
+synthetic-demo,250,69.6516,4.769089,69.725,69.085765,70.25539

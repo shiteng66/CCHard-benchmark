@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the CCHard manuscript and this dataset release."
+title: "CCHard Public Reproducibility Sample"
+type: dataset
+version: "0.3.0"
+date-released: "2026-07-14"
+authors:
+  - family-names: "Liu"
+    given-names: "Yang"
+  - family-names: "Shi"
+    given-names: "Teng"
+  - family-names: "Liu"
+    given-names: "Ying"
+  - family-names: "Wang"
+    given-names: "Jia-Hao"
+  - family-names: "Zhang"
+    given-names: "Hai-Tao"
+keywords:
+  - medical large language model
+  - clinical benchmark
+  - evaluation
+  - Chinese-language clinical medicine
+license: CC-BY-NC-4.0

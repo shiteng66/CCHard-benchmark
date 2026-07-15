@@ -1,0 +1,6 @@
+model_label,subtask,expert_hard_n,expert_hard_mean,model_hard_n,model_hard_mean,model_hard_minus_expert_hard
+synthetic-demo,T05_diagnosis,25,69.352,25,68.356,-0.996
+synthetic-demo,T07_evidence,25,69.408,25,69.716,0.308
+synthetic-demo,T08_differential,25,70.416,25,70.49,0.074
+synthetic-demo,T10_examination,25,69.864,25,68.968,-0.896
+synthetic-demo,T12_treatment,25,69.752,25,70.194,0.442

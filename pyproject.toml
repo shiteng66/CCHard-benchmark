@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cchard-eval"
+version = "0.3.0"
+description = "Public reproducibility pipeline for the CCHard clinical LLM benchmark sample"
+readme = "REPRODUCIBILITY.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  {name = "Yang Liu"},
+  {name = "Teng Shi"},
+  {name = "Ying Liu"},
+  {name = "Jia-Hao Wang"},
+  {name = "Hai-Tao Zhang"}
+]
+dependencies = [
+  "openai>=1.30,<3",
+  "numpy>=1.24,<3",
+  "matplotlib>=3.7,<4"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+cchard-eval = "cchard_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

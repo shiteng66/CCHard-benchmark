@@ -1,0 +1,6 @@
+model_label,subtask,n,mean,std,median,ci95_low,ci95_high
+synthetic-demo,T05_diagnosis,50,68.854,4.646799,68.5,67.5999,70.19605
+synthetic-demo,T07_evidence,50,69.562,4.830722,70.25,68.2498,70.8262
+synthetic-demo,T08_differential,50,70.453,5.08082,70.325,69.00155,71.8401
+synthetic-demo,T10_examination,50,69.416,5.466516,69.15,67.888925,70.87705
+synthetic-demo,T12_treatment,50,69.973,3.671084,70.075,68.898975,70.985025
