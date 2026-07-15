@@ -1,0 +1,23 @@
+{
+  "title": "CCHard Public Reproducibility Sample",
+  "upload_type": "dataset",
+  "description": "A 250-item, copyright-cleared and de-identified public reproducibility sample with clean-room model-calling, rubric-scoring, statistics and plotting code for the CCHard medical large language model benchmark. Dataset content uses CC BY-NC 4.0; original code uses MIT.",
+  "creators": [
+    {"name": "Liu, Yang"},
+    {"name": "Shi, Teng"},
+    {"name": "Liu, Ying"},
+    {"name": "Wang, Jia-Hao"},
+    {"name": "Zhang, Hai-Tao"}
+  ],
+  "license": "cc-by-nc-4.0",
+  "access_right": "open",
+  "version": "0.3.0",
+  "publication_date": "2026-07-14",
+  "keywords": [
+    "medical large language model",
+    "clinical benchmark",
+    "evaluation",
+    "Chinese-language clinical medicine"
+  ],
+  "language": "chi"
+}
